@@ -3,7 +3,7 @@
 
   inputs = {
     kupo = {
-      url = "github:CardanoSolutions/kupo/v2.9.0";
+      url = "github:CardanoSolutions/kupo/3944e069f199339d35e97684fdbdb425d6178c25";
       flake = false;
     };
     haskellNix = {

@@ -11,7 +11,7 @@ haskell-nix: src: inputMap: haskell-nix.cabalProject' {
         (baseNameOf path != "package.yaml")
       ];
   };
-  compiler-nix-name = "ghc965";
+  compiler-nix-name = "ghc98";
 
   modules = [
     {
